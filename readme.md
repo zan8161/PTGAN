@@ -18,6 +18,7 @@ Python version : __3.10.12__
 
 
 Download reid model(The size of the .pth file is greater than 300MB) :  https://drive.google.com/file/d/1kAeqozPfy7ODdvkr04X0hnvunMsCsd_P/view?usp=sharing
+
 Then put the .pth file to ```./checkpoints/stage2/transreid_256/v1/```
 
 
@@ -30,6 +31,7 @@ Demo說明:
 Gallery 所有車輛的 features 都預先用 ```preprocess.py``` 算好了，存放在 : ```./precaculate/gallery```
 
 執行:
+
 ```bash 
 python ui.py
 ```
